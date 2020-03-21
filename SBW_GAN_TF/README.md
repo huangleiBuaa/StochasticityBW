@@ -8,20 +8,14 @@
 * pandas
 * tensorflow >= 1.5.0
 
+The commands to reproduce experiments are under the "scripts" folder, for example:
 
-For the commands reproducing experiments from the paper check scripts folder.
+```CUDA_VISIBLE_DEVICES=0 scripts/Exp2_Stability/hinge/y_execute_script_exp2_1_A_cifar10_dcgan_sn1_ItN.sh```
 
-All scripts has the following name: (name of the dataset) + (architecture type (resnet or dcgan)) +
-(discriminator normalization (sn or wgan_gp)) + (conditional of unconditional) + (if conditional use soft assigment (sa)).
-
-For example:
-
-```CUDA_VISIBLE_DEVICES=0 scripts/cifar10_resnet_sn_uncond.sh```
-
-will train GAN for cifar10 dataset, with resnet architecture, spectral normalized discriminator in unconditional case.
+will train GAN using hinge loss on cifar10 dataset, with dcgan architecture, spectral normalized discriminator in unconditional case, and using iter-norm do to the whitening.
 
 
-All dataset are downloaded and trained at the same time.
+The dataset is downloaded and trained at the same time.
 
 
 ### Reference
