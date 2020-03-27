@@ -1,11 +1,8 @@
 # GANs Experiments
 This directory/project (Tensorflow implementation) provides the GANs experiments of the following paper:
 
-**An Investigation of Stochasticity of Batch Whitening** 
+**An Investigation of Stochasticity of Batch Whitening. Lei Huang, Lei Zhao, Yi Zhou, Fan Zhu, Li Liu, Ling Shao. CVPR 2020 (accepted)** 
 
-Lei Huang, Lei Zhao, Yi Zhou, Fan Zhu, Li Liu, Ling Shao
-
-*IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020 (accepted).*
 
 We provide the Tensorflow implementation of the four Batch whitening methods: 
 [PCA whitening](https://github.com/princeton-vl/DecorrelatedBN), 
@@ -55,7 +52,7 @@ bash exp3_cifar10_dcgan_unsup_Gzca_uconv_GW64.sh
 
 
 
-### Reference
+## Acknowledgement
 The implementation is modified from:
 
 Siarohin, A., Sangineto, E., Sebe, N.: Whitening and coloring transform for GANs.
