@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd "$(dirname $0)/.."
-CUDA_VISIBLE_DEVICES=6,7 python3 imagenet.py \
+CUDA_VISIBLE_DEVICES=4,5,6,7 python3 imagenet.py \
 -a=resnet_whiten_3n50 \
 --arch-cfg=last=True \
 --batch-size=256 \
