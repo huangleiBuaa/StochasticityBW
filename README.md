@@ -1,7 +1,7 @@
 # StochasticityBW
 
 Code for reproducing the results of our accpeted CVPR 2020 paper (Oral):
-**An Investigation of Stochasticity of Batch Whitening** , where we qualitatively and quantitively investigate the stochasticity caused by Batch Whitening (BW), during training and inference. 
+**An Investigation of Stochasticity of Batch Whitening**, where we qualitatively and quantitively investigate the stochasticity caused by Batch Whitening (BW), during training and inference. 
 
 
 ![](./FigSBW.png)
@@ -16,7 +16,7 @@ This repo provides the Pytorch and Tensorflow implementations of different white
 ## Citations
 If you find this repo benefits your research, please consider citing:
 ```
-@inproceedings{Huang:2020:cvpr,
+@inproceedings{2020_CVPR_Huang,
   author    = {Lei Huang and Lei Zhao and Yi Zhou and Fan Zhu and Li Liu and Ling Shao},
   title     = {Iterative Normalization: Beyond Standardization towards Efficient Whitening},
   booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
