@@ -37,7 +37,7 @@ bash y_execute_vgg_DBNSigma_seed1.sh
 
 #### 3. ImageNet experiments.
 
-The scripts to reproduce the experiments are in `./ImageNet/experiments/`. For example, one can  run the ItN whitening with covariance matrix estimation on 18 layer resent work (ARCC),  by following script: 
+The scripts to reproduce the experiments are in `./ImageNet/experiments/`. For example, one can  run the ItN whitening with covariance matrix estimation on 18 layer residual network (ARCC),  by following script: 
   ```Bash
 bash resnet18_ARCC_ItNSigma.sh
  ```
