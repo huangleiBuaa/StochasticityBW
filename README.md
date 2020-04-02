@@ -1,7 +1,7 @@
 # StochasticityBW
 
 Code for reproducing the results of our accpeted CVPR 2020 paper (Oral):
-**An Investigation of Stochasticity of Batch Whitening**, where we qualitatively and quantitively investigate the stochasticity caused by Batch Whitening (BW), during training and inference. 
+**An Investigation of Stochasticity of Batch Whitening** ([arXiv:2003.12327](https://arxiv.org/abs/2003.12327)), where we qualitatively and quantitively investigate the stochasticity caused by Batch Whitening (BW), during training and inference. 
 
 
 ![](./FigSBW.png)
