@@ -25,5 +25,5 @@ If you find this repo benefits your research, please consider citing:
 ```
 
  ## Contact
-Email: lei.huang@inceptioniai.org.
+Email: huanglei@nlsde.buaa.edu.cn.
 
